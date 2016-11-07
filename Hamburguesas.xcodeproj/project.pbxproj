@@ -12,6 +12,7 @@
 		8E969E6C1DCFFC7B00F0EC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E969E6A1DCFFC7B00F0EC40 /* Main.storyboard */; };
 		8E969E6E1DCFFC7B00F0EC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E969E6D1DCFFC7B00F0EC40 /* Assets.xcassets */; };
 		8E969E711DCFFC7B00F0EC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E969E6F1DCFFC7B00F0EC40 /* LaunchScreen.storyboard */; };
+		8E969E7A1DCFFDBA00F0EC40 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E969E791DCFFDBA00F0EC40 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E969E6D1DCFFC7B00F0EC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E969E701DCFFC7B00F0EC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E969E721DCFFC7B00F0EC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E969E791DCFFDBA00F0EC40 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8E969E651DCFFC7B00F0EC40 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				8E969E781DCFFD4E00F0EC40 /* PlayGround */,
 				8E969E661DCFFC7B00F0EC40 /* AppDelegate.swift */,
 				8E969E681DCFFC7B00F0EC40 /* ViewController.swift */,
 				8E969E6A1DCFFC7B00F0EC40 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				8E969E721DCFFC7B00F0EC40 /* Info.plist */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		8E969E781DCFFD4E00F0EC40 /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				8E969E791DCFFDBA00F0EC40 /* Datos.swift */,
+			);
+			name = PlayGround;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				8E969E691DCFFC7B00F0EC40 /* ViewController.swift in Sources */,
 				8E969E671DCFFC7B00F0EC40 /* AppDelegate.swift in Sources */,
+				8E969E7A1DCFFDBA00F0EC40 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
